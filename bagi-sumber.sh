@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Ciptakan direktori hasil kalau belum ada.
+parent_directory_path="usfm-hasil/AlkitabKita/"
 if [ ! -d usfm-hasil ]; then
-  mkdir usfm-hasil
+  mkdir $parent_directory_path
 fi
 
 # Variabel-variabel dasar.
 source_usfm_directory_path="usfm-sumber/"
 source_usfm_names=()
 source_usfm_indexes=()
-parent_directory_path="usfm-hasil/"
 file_name="/100000001"
 newline=$'\n'
 
