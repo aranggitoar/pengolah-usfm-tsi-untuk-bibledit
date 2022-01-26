@@ -30,11 +30,11 @@ for NAME in ${array_of_falsy_names[@]}; do
     last_name_to_correct=${array_of_names_to_correct[$correct_array_index]}
     array_of_correct_names+=([$correct_array_index]="$last_correct_name$NAME")
 
-    echo "$path_to_target_files$last_correct_name$NAME"
+    echo "Dari $path_to_original_files$last_name_to_correct $NAME .."
 
     array_of_names_to_correct+=([$correct_array_index]="$last_name_to_correct $NAME")
 
-    echo "$path_to_original_files$last_name_to_correct $NAME"
+    echo ".. menjadi $path_to_target_files$last_correct_name$NAME"
 
     ((correct_array_index++))
 
