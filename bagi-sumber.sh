@@ -3,7 +3,7 @@
 # Ciptakan direktori hasil kalau belum ada.
 parent_directory_path="usfm-hasil/AlkitabKita/"
 if [ ! -d usfm-hasil ]; then
-  mkdir $parent_directory_path
+  mkdir -p $parent_directory_path
 fi
 
 # Variabel-variabel dasar.
