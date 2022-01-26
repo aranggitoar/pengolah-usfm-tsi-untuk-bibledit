@@ -1,6 +1,8 @@
 # USFM TSI untuk Bibledit
 Ini adalah kode pendek untuk mempersiapkan hasil export USFM TSI untuk Bibledit.
 
+Jalankan kode dengan `./eksekusi.sh`.
+
 Secara spesifik, untuk dapat dibaca oleh Bibledit dengan mekanisme pembacaan
 database filesystemnya.
 
