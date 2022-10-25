@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -rf usfm-sumber
+rm -rf usfm-hasil
 echo "------------------------------"
 echo "Mengunduh file-file USFM TSI yang sudah siap dibaca ..."
 echo "------------------------------"
